@@ -13,9 +13,9 @@
     animation-iteration-count: 1;
     animation-duration: 1s;
     animation-direction: normal;
-    margin-left: 13vw;
+    margin-left: 10vw;
  font-family: Montserrat;
-    font-size: 20vh;
+    font-size: 19vh;
     color: white;
     
   }
@@ -27,7 +27,7 @@
     animation-delay: 0.5s;
     animation-duration: 1s;
     animation-direction: normal;
-    font-size: 20vh;
+    font-size: 19vh;
     margin-left: 65vw;
     color: white;
   
@@ -40,8 +40,8 @@
     animation-delay: 0.5s;
     animation-duration: 1s;
     animation-direction: normal;
-    font-size: 20vh;
-    margin-left: 15vw;
+    font-size: 19vh;
+    margin-left: 12vw;
     margin-top: 45vh;
     color: white;
   }
@@ -52,7 +52,7 @@
     animation-delay: 0.5s;
     animation-duration: 1s;
     animation-direction: normal;
-    font-size: 20vh;
+    font-size: 19vh;
    
     margin-left: 45vw;
     margin-top: 45vh;
@@ -76,4 +76,13 @@
             transform: scale(1.1);
         }
        
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /* Firefox */
+      html {
+        scrollbar-width: none; /* Scroll bar genişliğini gizler */
+        scrollbar-color: transparent transparent; /* Scroll bar rengini gizler */
       }
