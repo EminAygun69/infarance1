@@ -1,0 +1,90 @@
+.navcontain
+{
+  height: 100vh;
+  width: 3vw;
+  margin-left: 0;
+  position: fixed;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.382);
+  padding-top: 15vh;
+  grid-template-rows: repeat(5,13vh);
+  
+  overflow: hidden;
+  z-index: 100;
+
+
+  
+  
+}
+.navcontain:hover
+{
+ animation: açıl 1s forwards;
+ background-color: rgb(0, 0, 0);
+  
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.aydın
+{
+
+    
+    font-family: Montserrat;
+}
+.aydın:hover{
+
+  animation: ısıltı 1s forwards;
+  animation: parla 0.5s forwards;
+
+}  
+
+
+  @keyframes süzül {
+    from {transform: translateX(0);}
+    to {transform: translateX(100px);}
+  }
+  @keyframes açıl {
+    from {  width: 3vw;}
+    to {  width: 18vw;}
+  }
+  @keyframes parla {
+    from {   color: #fff;}
+    to {    color: #fff;
+      text-shadow:
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;}
+  }
+  #checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .3s;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition-duration: .3s;
+  }
+  

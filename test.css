@@ -1,0 +1,79 @@
+.nametag{
+    position: absolute;
+  }
+  
+  .nametag:nth-of-type(1){
+    animation-name: fade;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-name: büyü;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-direction: normal;
+    margin-left: 13vw;
+ font-family: Montserrat;
+    font-size: 20vh;
+    color: white;
+    
+  }
+  
+  .nametag:nth-of-type(2){
+    animation-name: fade,büyü;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-direction: normal;
+    font-size: 20vh;
+    margin-left: 65vw;
+    color: white;
+  
+  }
+  
+  .nametag:nth-of-type(3){
+    animation-name: fade,büyü;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-direction: normal;
+    font-size: 20vh;
+    margin-left: 15vw;
+    margin-top: 45vh;
+    color: white;
+  }
+  .nametag:nth-of-type(4){
+    animation-name: fade,büyü;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-direction: normal;
+    font-size: 20vh;
+   
+    margin-left: 45vw;
+    margin-top: 45vh;
+    color: white;
+  }
+  
+  @keyframes fade{
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+     
+    }
+    @keyframes büyü{
+        0% {
+          transform: scale(1);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+       
+      }
