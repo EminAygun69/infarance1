@@ -14,4 +14,7 @@ router.get('/hizmetlerimiz', (req, res) => {
 router.get('/iletisim', (req, res) => {
     res.render('iletisim.ejs'); // No need to include .html if set correctly in the app
 });
+router.get('/admin', (req, res) => {
+    res.render('admin');
+});
 export default router;
